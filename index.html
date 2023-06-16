@@ -25,12 +25,20 @@
                     <h2 class="pl-3">Company Name</h2>
                 </div>
                 <!-- Middle Section of the Nav-bar-->
-                <div class="d-inline">
-                    <!-- Links contained within-->
-                    <a href="">a</a>
-                    <a href="">b</a>
-                    <a href="">c</a>
-                </div>
+                <ul class="nav nav-pills nav-fill">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Longer nav link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Disabled</a>
+                    </li>
+                  </ul>
                 <!-- Right section of the nav-bar-->
                 <div class="d-inline ">
                     <!-- Image 1-->
@@ -38,15 +46,15 @@
                         <i class="fa-solid fa-frog fa-2xl position-absolute" style="color:#005eff;translate:0% 14px;  "></i>
                     </div>
                     <!-- Link 1-->
-                    <a href="">link</a>
+                    <a href="" class="btn btn-primary" style="translate:0 -15px">link</a>
                     <!-- Image 1-->
                     <div class="p-2 bg-warning position-relative d-inline-flex" style="border-radius:50%;height:50px;width:50px; ">
                         <i class="fa-solid fa-frog fa-2xl position-absolute" style="color:#005eff;translate:0% 14px;  "></i>
                     </div>
                     <!-- Link 1-->
-                    <a href="">placeholder</a>
+                    <a href="" class="btn btn-primary" style="translate:0 -15px">Placeholder</a>
                     <!-- The 'get started' button-->
-                    <button>Test</button>
+                    <div class="btn btn-primary btn-lg bg-light text-dark" style="translate:0 -15px">Get Started Here</button>
                 </div>
 
             </div>
@@ -60,7 +68,7 @@
 <!-- Main Page Section-->
 <div class="d-flex justify-content-center  align-items-center w-100 flex-column">
     <!--Main Card-->
-    <div class="card w-50 p-3 shadow">
+    <div class="card w-50 p-3 mt-3 shadow">
         <!-- The main image featured on the page. -->
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -103,28 +111,69 @@
 <hr class="w-75" style="translate:12.5%;">
 <br>
 <!-- third section of the page-->
-<div class="container ">
-    <!-- box item #1-->
-    <div class="d-inline-flex">
-    </div>
-    <!-- Box Item #2-->
-    <div class="card" style="width: 18rem;">
-       
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+<div class="container w-75">
+    <!--First section of third container-->
+        
+    <div class="row mb-2" style="height:10%; gap:5px;">
+        <!-- box item #1-->
+        <div class="col-12 col-md-8">
+            <!--Button Row-->
+            <div class="row">
+                
+                <div class=" col" >
+                    <!-- Button Row's Text-->
+                    <div class="d-inline-flex flex-column" style="translate:0 -20%">
+                        <p>Store Number: 56hp90</p>
+                        <h2 style="margin-bottom:20px">This Joke is Old</h2>
+                        <span class="mx-auto">
+                            <!--Sorry for this line--> 
+                            <i class="fa-solid fa-frog fa-2xs" style="color: #1c980b;"></i><i class="fa-solid fa-frog fa-2xs" style="color: #1c980b;"></i><i class="fa-solid fa-frog fa-2xs" style="color: #1c980b;"></i><i class="fa-solid fa-frog fa-2xs" style="color: #1c980b;"></i><i class="fa-solid fa-frog fa-2xs" style="color: #1c980b;"></i><i class="fa-solid fa-frog fa-2xs" style="color: #1c980b;"></i>
+                        </span>
+                    </div>
+                </div>
+                <!-- Button-->
+                <div class="col ">
+                    <div class="btn btn-primary mx-auto w-100 "><h2>Add to Cart</h2></div>
+                </div>
+                <div class="col ">
+                    <div class="col ">
+                        <div class="btn btn-outline mx-auto w-100 border border-primary"><h2>Pay Immediately</h2></div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    <!-- Box item #3-->
-    <div class="card d-flex justify-content-center align-items-center bg-primary p-5 w-50">
-        <h3 class="card-title">
-          This is some text within a card body.
-        </h3>
-        <input class="form-control form-control-lg w-75" type="text"  placeholder=".form-control-lg">
+        <div class="col"> 
+            <!-- Box Item #2-->
+            <div class="card">
+              
+               <div class="card-body">
+                   <h5 class="card-title">Card title</h5>
+                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                   <a href="#" class="btn btn-primary">Go somewhere</a>
+               </div>
+            </div>
+         </div>
+     </div>
+   
+    <div class="row" style="width:68%">
+        <!-- Box item #3-->
+        <div class="card d-flex justify-content-center align-items-center bg-secondary" style="height:4.5rem;">
+         
+        </div>
     </div>
+    
 </div>
-
+<div class="card d-flex justify-content-center align-items-center bg-primary mt-5 mx-auto text-" style="width:50rem;height:15rem;">
+    <h2 class="card-title ">
+        Sign Up Now So Your Selected Items Are Saved To Your Personal Cart 
+    </h2>
+    <div class="d-flex bg-white p-3 w-75">
+        <input class="form-control form-control-lg flex-shrink-1" type="text"  placeholder=".form-control-lg">
+        <span class="btn btn-warning" style="display:inline">send</span>
+        </div>
+</div>
+<hr>
+<br>
 
 </body>
 </html>
